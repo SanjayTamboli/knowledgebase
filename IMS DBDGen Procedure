@@ -1,4 +1,4 @@
-```markdown
+
 # IMS DBDGEN Procedure
 
 This document outlines the steps and parameters for performing a Database Definition Generation (DBDGEN) in IBM IMS (Information Management System).
@@ -167,11 +167,3 @@ FINISH
 //HDAMDD1  DD DSN=YOUR.IMS.HDAMDB.DATA,DISP=OLD,UNIT=SYSDA,VOL=SER=VOL001
 //HDAMOVF  DD DSN=YOUR.IMS.HDAMDB.OVFL,DISP=OLD,UNIT=SYSDA,VOL=SER=VOL001
 ```
-
----
-
-**Disclaimer**: This document provides a general overview and examples. Specific IMS versions, configurations, and database requirements may necessitate different parameters or additional steps. Always consult your organization's IMS documentation and best practices.
-```
-
-Here's an image illustrating the conceptual flow of IMS DBDGEN, ACBGEN, and how they relate to the IMS system components.
-
